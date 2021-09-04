@@ -15,7 +15,8 @@
 #   nome = 'Cerveja Skol'
 #   len(nome)
 import os
-  
+os.system('cls' if os.name == 'nt' else 'clear')  
+
 print('\n', '='*15, ' Sistema de Cadastro de Produtos ', '='*15, '\n')
 valido = False
 prod = {}
