@@ -41,8 +41,6 @@ def rodape(produto):
     print('Produto cadastrado com sucesso!')
     print('\t', produto['nome'], produto['descricao'], produto['valor'])
 
-
-
 cabecalho()
 p = cadastra()
 if(valida(p)):
